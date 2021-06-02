@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+body {
+    font-family: 'Viga', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cover {
+    height: 100vh;
+    background-image: url("./images/komfapsi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #14213d;
+}
+.cover .title{
+    text-align: center;
+}
+.cover-content {
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10%;
+}
+.cover h2{
+    text-transform: uppercase;
+}
+.card-container h1{
+    color: white;
+    text-align: center;
+}
+.card-container {   
+    height: 160vh;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #14213d;
+    padding: 20px;
+}
+
+.card-container .card {
+    background-color: white;
+    width: 250px;
+    float: left;
+    margin: 50px 50px;
+    color: #14213d;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 95px;
+}
+.card-container .card-content{
+    padding: 10px 10px 30px 10px;
+}
+
+.card-container .card-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #14213d;
+    color: white;
+}
+.card-container h1 {
+    color: white;
+    text-align: center;
+}
+.card-container h3 {
+    color: white;
+    text-align: center;
+}
+@media screen {
+    max-width: 600px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    margin-top: auto;
+}
+#nav-bar {
+    position: fixed;
+    top: 0;
+}
